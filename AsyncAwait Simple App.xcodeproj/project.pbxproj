@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		343BFC312964486600F0F19F /* AsyncAwait_Simple_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFC302964486600F0F19F /* AsyncAwait_Simple_AppApp.swift */; };
-		343BFC332964486600F0F19F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFC322964486600F0F19F /* ContentView.swift */; };
+		343BFC332964486600F0F19F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFC322964486600F0F19F /* MainView.swift */; };
 		343BFC352964486800F0F19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343BFC342964486800F0F19F /* Assets.xcassets */; };
 		343BFC382964486800F0F19F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343BFC372964486800F0F19F /* Preview Assets.xcassets */; };
+		343BFC3F296448D700F0F19F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFC3E296448D700F0F19F /* WebService.swift */; };
+		343BFC41296448F900F0F19F /* CurrentDate Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFC40296448F900F0F19F /* CurrentDate Struct.swift */; };
+		343BFC432964491700F0F19F /* CurrentDateListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BFC422964491700F0F19F /* CurrentDateListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		343BFC2D2964486600F0F19F /* AsyncAwait Simple App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsyncAwait Simple App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		343BFC302964486600F0F19F /* AsyncAwait_Simple_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait_Simple_AppApp.swift; sourceTree = "<group>"; };
-		343BFC322964486600F0F19F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		343BFC322964486600F0F19F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		343BFC342964486800F0F19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343BFC372964486800F0F19F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		343BFC3E296448D700F0F19F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		343BFC40296448F900F0F19F /* CurrentDate Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrentDate Struct.swift"; sourceTree = "<group>"; };
+		343BFC422964491700F0F19F /* CurrentDateListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				343BFC302964486600F0F19F /* AsyncAwait_Simple_AppApp.swift */,
-				343BFC322964486600F0F19F /* ContentView.swift */,
+				343BFC322964486600F0F19F /* MainView.swift */,
+				343BFC3E296448D700F0F19F /* WebService.swift */,
+				343BFC40296448F900F0F19F /* CurrentDate Struct.swift */,
+				343BFC422964491700F0F19F /* CurrentDateListVM.swift */,
 				343BFC342964486800F0F19F /* Assets.xcassets */,
 				343BFC362964486800F0F19F /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343BFC332964486600F0F19F /* ContentView.swift in Sources */,
+				343BFC3F296448D700F0F19F /* WebService.swift in Sources */,
+				343BFC41296448F900F0F19F /* CurrentDate Struct.swift in Sources */,
+				343BFC332964486600F0F19F /* MainView.swift in Sources */,
+				343BFC432964491700F0F19F /* CurrentDateListVM.swift in Sources */,
 				343BFC312964486600F0F19F /* AsyncAwait_Simple_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
